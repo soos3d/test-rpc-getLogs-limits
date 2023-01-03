@@ -1,0 +1,26 @@
+{
+  "name": "test-rpc-getlogs-limits",
+  "version": "1.0.0",
+  "description": "This tool runs a series of eth_getLogs requests to find out how many blocks in the past an RPC endpoint can handle. Compatible with EVM based chains.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "web3",
+    "emv",
+    "rpc",
+    "endpoint",
+    "test",
+    "getLogs",
+    "ethereum",
+    "blockchain"
+  ],
+  "author": "Davide Zambiasi",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "web3": "^1.8.1"
+  }
+
+}
