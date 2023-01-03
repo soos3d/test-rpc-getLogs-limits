@@ -1,4 +1,4 @@
-# test rpc getLogs limits
+# Test rpc getLogs limits
 
  This tool runs a series of `eth_getLogs` requests to find out how many blocks in the past an RPC endpoint can handle. Compatible with EVM based chains.
 
@@ -64,7 +64,7 @@ EVM_NODE_URL="NODE_URL_TO_TEST"
     // Starting point
     let testedBlocks = 0
 
-    // Blocks increment, each loop add 5000 blocks to the getLogs query
+    // Blocks increment, each loop add 100 blocks to the getLogs query
     const increment = 100
 
     // Address to get logs from

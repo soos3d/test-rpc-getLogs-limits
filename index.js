@@ -14,7 +14,7 @@ async function main() {
     // Starting point
     let testedBlocks = 0
 
-    // Blocks increment, each loop add 5000 blocks to the getLogs query
+    // Blocks increment, each loop add 100 blocks to the getLogs query
     const increment = 100
 
     // Address to get logs from
