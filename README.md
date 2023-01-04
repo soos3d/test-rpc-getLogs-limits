@@ -12,9 +12,12 @@ Project's structure:
 
 ```sh
     ├── index.js
+    │── src
+    │   ├── testLogs.js
+    │ 
     ├── utils
     │   ├── getSize.js
-    │   │── testLogs.js
+    │   
     │   
     ├──.env
     ├── package.json

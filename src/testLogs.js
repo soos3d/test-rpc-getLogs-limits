@@ -5,7 +5,7 @@
 // It import the getSizeMb function from the getsize file
 
 const Web3 = require("web3");
-const { getSizeMb } = require('./getSize')
+const { getSizeMb } = require('../utils/getSize')
 require('dotenv').config();
 
 

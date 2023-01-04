@@ -4,7 +4,8 @@
 // Runs a loop trying to get logs starting at 0 blocks in the past.
 
 // The testLogs function calculates the range of blocks based on the latest block.
-const { testLogs } = require('./utils/testLogs')
+const { testLogs } = require('./src/testLogs')
+
 
 async function main() {
 
@@ -18,7 +19,7 @@ async function main() {
     const increment = 100
 
     // Address to get logs from
-    const address = "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7" // WAVAX
+    const address = "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7" //WAVAX
 
     while (testedBlocks < blocks) {
         await testLogs(testedBlocks, address)
